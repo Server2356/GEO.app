@@ -77,27 +77,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-    
-}
-
-class WKWebView{
-    
-}
-class WKWebView1{
-    
-}
-class WKWebView2{
-    
-}
-class WKWebView3{
-    
-}
-class WKWebView4{
-    
-}
-class WKWebView5{
-    
-}
-class WKWebView6{
 
 }
