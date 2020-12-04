@@ -8,4 +8,4 @@ GEO is a news app that provides top news stories in the US with fact-checked new
 
 GEO will soon be released for the Mac
 
-GEO will be avaliable by December 13th or January of 2021!
+GEO will be avaliable by December 6th, 2020
