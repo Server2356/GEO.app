@@ -1,0 +1,19 @@
+- name: Xcode Notarize
+  # You may pin to the exact commit or the version.
+  # uses: devbotsxyz/xcode-notarize@d7219e1c390b47db8bab0f6b4fc1e3b7943e4b3b
+  uses: devbotsxyz/xcode-notarize@v1.0.0
+  with:
+    # Path to the product to notarize.
+    product-path: 
+    # The AppStore Connect username.
+    appstore-connect-username: # optional
+    # The AppStore Connect password.
+    appstore-connect-password: # optional
+    # The AppStore Connect API Key.
+    appstore-connect-api-key: # optional
+    # The AppStore Connect API Issuer.
+    appstore-connect-api-issuer: # optional
+    # Unique identifier that identifies this product notarization. Defaults to the bundle identifier of the app you are uploading.
+    primary-bundle-id: # optional
+    # Verbose mode will print Notarization API responses.
+    verbose: # optional
