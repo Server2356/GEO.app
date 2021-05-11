@@ -4,6 +4,7 @@
 //
 //  Created by Abdon Morales Jr on 11/20/20.
 //
+// Updated on Feburary 10, 2021
 
 import UIKit
 import WebKit
@@ -21,7 +22,7 @@ class ViewController: UIViewController, WKUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myURL = URL(string:"https://nypost.com/")
+        let myURL = URL(string:"https://nytimes.com/")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }}
